@@ -32,7 +32,7 @@ struct AspectRatioInfo
 	IG::Point2D<uint> aspect;
 };
 
-#define EMU_SYSTEM_DEFAULT_ASPECT_RATIO_INFO_INIT {"1:1", 1, 1}, {"Full Screen", 0, 1}
+#define EMU_SYSTEM_DEFAULT_ASPECT_RATIO_INFO_INIT {"1:1", 1, 1}, {"16:10", 16, 10}, {"Full Screen", 0, 1}
 
 struct BundledGameInfo
 {
